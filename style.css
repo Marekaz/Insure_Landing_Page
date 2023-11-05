@@ -1,0 +1,421 @@
+body {
+font-size: 16px;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+
+}
+
+.logo{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    color:hsl(270, 9%, 17%);
+
+}
+
+.nav_list ul{
+    font-family: 'Karla', sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.nav_list li{
+    color: grey;
+}
+
+.nav_list button{
+    border-color:hsl(270, 9%, 17%);
+    border-style: solid;
+    color: hsl(270, 9%, 17%);
+    
+  
+}
+
+
+.First_Header{
+    background-color: hsl(256, 26%, 20%);
+    display: flex;
+    color: white;
+    position: relative;
+    height: 500px;  
+}
+
+.First_Header .Header_Container{
+    padding-top: 75px;
+    padding-left: 160px;
+    margin-bottom: 90px;
+}
+
+.Header_Container button{
+    color: white;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: 70px;
+}
+
+.Header_Container h1{
+    font-size: 50px;
+    width: 350px;
+    font-weight: 400;
+    position: relative;
+}
+
+.First_Header .img__2{
+    position: absolute;
+    margin-top: 380px;
+    width: 190px;
+    height: 350px;
+}
+
+.First_Header p{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    position: relative; 
+    width: 480px;
+    margin-bottom: 30px;
+    color: hsla(0, 0%, 98%, 0.815);
+}
+
+.First_Header .img_1{
+    position: absolute;
+    margin-left: 760px;
+    margin-top: 80px;
+    width: 500px;
+    height: 560px;
+}
+
+.First_Header .img_wavy_lines{
+    top: -65px;
+    width: 400px;
+    height: 510px;
+    position: absolute;
+    margin-left: 1025px;
+    overflow:  hidden;
+    clip:rect(65px,600px,800px,0px)
+}
+
+button{
+    background-color: transparent;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+}
+
+.About_Us h1{
+    font-size: 50px;
+    font-weight: 400;
+    width: 400px;
+    position: relative;
+}
+
+.About_Us button{
+    border-color: white;
+    color: white;
+    outline: none;
+    position: absolute;
+    margin-left: 864px;
+    border-style: solid;
+}
+
+.Second_Header{
+    width: 1100px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.Second_Header h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.Second_Header .What_We_Do{
+    display: flex;
+    gap: 3rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.Second_Header .small_p{
+    color: hsl(273, 4%, 51%);
+    width: 350px;
+}
+
+.About_Us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    height: 200px;
+    width: 1000px;
+    position: relative;
+
+}
+
+.About_Us img{
+    position: absolute;
+    margin-left: 712px;
+    height: 200px;
+}
+
+.logo_14{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.body_1{
+    background-color: hsl(0, 0%, 98%);
+    height: 300px;  
+}
+
+.body_2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 350px;
+}
+
+.body_2 ul{
+    list-style: none;
+    color: hsl(270, 9%, 17%);
+}
+
+.body_2 .Nav_Head{
+    margin-bottom: 20px;
+    color: hsl(273, 4%, 51%);
+    font-size: 13px;
+}
+
+.body_1 .rythym{
+    position: absolute;
+    height: 190px;
+    width: 500px;
+}
+
+.line .line_1 {
+    height: 1px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 19px;
+    background-color: rgba(0, 0, 0, 0.106);
+}
+
+.Second_Header .Container{
+    height: 1px;
+    width: 110px;
+    margin-right: 450px;
+    margin-top: 19px;
+    background-color: rgba(0, 0, 0, 0.292);
+}
+
+.First_Header .Container{
+    height: 1px;
+    width: 90px;
+    margin-right: 450px;
+    margin-top: 19px;
+    background-color:hsl(0, 0%, 98%);
+}
+
+/* Iphones or normal phones 0px - 600px */
+@media only screen and (max-width: 600px) {
+    body{
+      align-items: center;
+    }
+
+.Second_Header .What_We_Do{
+    font-size: 60px;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.About_Us {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 1200px;
+    overflow: hidden;
+    background-image:url(images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 400px 1100px;
+    margin-left: 150px;
+
+}
+
+.About_Us h1{
+    font-size: 150px;
+    font-weight: 400;
+    width: 950px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.About_Us button{
+    font-size: 50px;
+    margin-left: 0px;
+    margin-top: 750px;
+    border-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 30px;
+}
+
+.About_Us img{
+    display: none;
+}
+
+
+.Second_Header img{
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+}
+
+.Second_Header .small_p{
+    margin-left: 100px;
+    width: 1100px;
+    text-align: center;
+}
+
+.Second_Header h3{
+    margin-left: 300px;
+}
+
+.Second_Header h1{
+    font-size: 100px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.body_2 {
+    flex-direction: column;
+    font-size: 60px;
+    margin-left: 500px;
+    text-align: center;
+    width: 500px;
+}
+
+.body_2 .Nav_Head {
+    font-size: 60px;
+}
+
+.logo_14 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.logo_14 img{
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+.First_Header .img_1 {
+    display: none;
+}
+
+.line .line_1{
+    height: 5px;
+    width: 2000px; 
+}
+
+.Second_Header{
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+.body_1 .rythym{
+    width: 1600px;
+    height: 550px;
+    margin-bottom: 500px;
+}
+
+.body_1 {
+    width: 2000px;
+    height: 2400px;
+}
+
+.nav_list ul{
+    display: none;
+}
+
+.First_Header{
+    background-color: hsl(256, 26%, 20%);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 1590px;
+    height: 1100px; 
+}
+
+.First_Header h1{
+    font-size: 150px;
+    width: 1000px;
+    font-weight: 400;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.First_Header p{
+    font-size: 42px;
+    width: 750px;
+    margin-left: 300px;
+   text-align: center;
+}
+
+.Header_Container button{
+    font-size: 60px;
+    margin-bottom: 70px;
+    margin-left: 450px;
+    margin-bottom: 200px;
+    padding: 10px 50px;
+    
+}
+
+.Second_Header .Container{
+    height: 5px;
+    width: 600px;
+    margin-left: 450px;
+    background-color: hsl(270, 9%, 17%);
+}
+
+.First_Header .Container{
+    background-color: transparent;
+}
+
+.First_Header .img__2{
+    display: none;
+}
+
+.nav_list img{
+    padding: 50px;
+    width: 200px;
+    height: 70px;
+}
+
+.First_Header .img_wavy_lines{
+    display: none;
+}
+
+
